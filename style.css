@@ -1,3 +1,4 @@
+/*Main Header*/
 .header{
     padding: 80px;
     text-align: center;
@@ -9,11 +10,13 @@
     font-size: 40px;
 }
 
+/*Dark Navbar*/
 .navbar{
     overflow: hidden;
     background-color: #333;
 }
 
+/*For links*/
 .navbar a{
     float: none ;
     display: block;
@@ -27,7 +30,9 @@
     float: right;
 }
 
+/*Adds hover animation to links*/
 .navbar a:hover{
     background-color: #ddd;
     color: black;
 }
+
