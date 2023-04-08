@@ -8,3 +8,13 @@
 .header h1{
     font-size: 40px;
 }
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a{
+    float: left;
+    
+}
