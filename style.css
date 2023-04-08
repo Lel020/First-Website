@@ -56,9 +56,17 @@
     padding: 20%;
 }
 
-/*@media - responsive layout*/
+/*@media - responsive layout for the content*/
 @media screen and (max-width: 700px){
     .row{
         flex-direction: column;
+    }
+}
+
+/*@media - responsive layout for navbar*/
+@media screen and (max-width: 400px){
+    .navbar a{
+        float: none;
+        width: 100%;
     }
 }
