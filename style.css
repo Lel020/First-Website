@@ -15,12 +15,13 @@
     overflow: hidden;
     background-color: #333;
     margin-top: 10px;
+    text-align: center;
 }
 
 /*For links*/
 .navbar a{
     float: none ;
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 20px;
