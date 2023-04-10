@@ -17,32 +17,6 @@ body{
     font-size: 40px;
 }
 
-/*Dark Navbar*/
-.navbar{
-    overflow: hidden;
-    background-color: #fff;
-    margin-top: 10px;
-    text-align: center;
-}
-
-/*For links*/
-.navbar a{
-    display: inline-block;
-    color: black;
-    background-color: #d9d9d9;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/*Adds hover animation to links*/
-.navbar a:hover{
-    background-color: #666;
-    color: white;
-}
-
 /*Universal*/
 *{
     box-sizing: border-box;
