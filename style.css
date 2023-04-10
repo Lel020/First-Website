@@ -22,30 +22,38 @@ body{
 }
 
 .button-discord{
-    background-color: #d2d5d4;
+    background-color: transparent;
     border: 1px solid rgb(204, 236, 232);
     color: black;
-    padding: 50px 50px;
+    padding: 40px 40px;
     cursor: pointer;
     margin-top: 10px;
-    border-radius: 5px;
+    margin-right: 10px;
+    border-color: white;
     background-image: url("https://cdn-icons-png.flaticon.com/512/2582/2582637.png");
     background-size: cover; 
 }
 
 .button-github{
-    background-color: #d2d5d4;
+    background-color: transparent;
     border: 1px solid rgb(204, 236, 232);
     color: black;
-    padding: 15px 32px;
+    padding: 34px 34px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
-    border-radius: 5px;
+    margin-left: 10px;
+    border-color: white;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+    background-size: cover;
 }
 
 .button-discord:hover{
-    background-color: grey;
+    background-color: #edebeb;
+}
+
+.button-github:hover{
+    background-color: #edebeb;
 }
 
 /*Universal*/
@@ -67,7 +75,7 @@ body{
 }
 
 .row h3{
-    margin-top: 45px;
+    margin-top: 35px;
     margin-bottom: 5px;
 }
 
