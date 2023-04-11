@@ -48,14 +48,6 @@ body{
     background-size: cover;
 }
 
-.button-discord:hover{
-    background-color: #edebeb;
-}
-
-.button-github:hover{
-    background-color: #edebeb;
-}
-
 /*Universal*/
 *{
     box-sizing: border-box;
