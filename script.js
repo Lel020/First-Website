@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     githubbutton.addEventListener('click', () => {
       try {
           window.open('https://github.com/Lel020');
-      }catch (e){
+          }catch (e) {
           window.location.href = 'https://github.com/';
           console.log(e);
       }

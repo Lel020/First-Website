@@ -32,6 +32,11 @@ body{
     border-color: white;
     background-image: url("https://cdn-icons-png.flaticon.com/512/2582/2582637.png");
     background-size: cover; 
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.button-discord:hover{
+    box-shadow: 0 0 0 3px #009999;
 }
 
 .button-github{
@@ -46,8 +51,12 @@ body{
     border-color: white;
     background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
     background-size: cover;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
+.button-github:hover{
+    box-shadow: 0 0 0 3px #009999;
+}
 /*Universal*/
 *{
     box-sizing: border-box;
