@@ -5,6 +5,27 @@ body{
     background-color: #F9FDFC;
 }
 
+/*Universal*/
+*{
+    box-sizing: border-box;
+    /*border: solid*/
+}
+
+/*@media - responsive layout for the content*/
+@media screen and (max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+/*@media - responsive layout for navbar*/
+@media screen and (max-width: 400px){
+    .navbar a{
+        float: none;
+        width: 100%;
+    }
+}
+
 /*Main Header*/
 .header{
     padding: 80px;
@@ -19,6 +40,7 @@ body{
 
 .button-container{
     text-align: center;
+    margin-top: 10px;
 }
 
 .button-discord{
@@ -57,10 +79,6 @@ body{
 .button-github:hover{
     box-shadow: 0 0 0 3px #009999;
 }
-/*Universal*/
-*{
-    box-sizing: border-box;
-}
 
 /*Parent class*/
 .content{
@@ -73,26 +91,14 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    text-decoration: overline;
+    text-decoration-color: #009999;
+    text-decoration-thickness: 2px;
 }
 
-.row h3{
-    margin-top: 35px;
-    margin-bottom: 5px;
-}
-
-/*@media - responsive layout for the content*/
-@media screen and (max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
-}
-
-/*@media - responsive layout for navbar*/
-@media screen and (max-width: 400px){
-    .navbar a{
-        float: none;
-        width: 100%;
-    }
+.row text{
+    text-align: center;
+    margin: 10px;
 }
 
 /*For the footer*/
