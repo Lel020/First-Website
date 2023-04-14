@@ -36,6 +36,7 @@ body{
 
 .header h1{
     font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;    
 }
 
 /*Parent class*/
@@ -96,6 +97,7 @@ body{
     text-decoration: overline;
     text-decoration-color: #009999;
     text-decoration-thickness: 2px;
+    font-size: 18px;
 }
 
 .row text{
