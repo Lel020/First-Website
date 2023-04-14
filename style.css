@@ -28,7 +28,7 @@ body{
 
 /*Main Header*/
 .header{
-    padding: 80px;
+    padding: 50px;
     text-align: center;
     background: #009999;
     color: white;
@@ -38,9 +38,16 @@ body{
     font-size: 40px;
 }
 
+/*Parent class*/
+.content{
+    min-height: 70dvh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button-container{
     text-align: center;
-    margin-top: 10px;
 }
 
 .button-discord{
@@ -80,11 +87,6 @@ body{
     box-shadow: 0 0 0 3px #009999;
 }
 
-/*Parent class*/
-.content{
-    min-height: 100dvh;  
-}
-
 /*For media*/
 .row{
     display: flex ;
@@ -106,5 +108,5 @@ body{
     padding: 30px;
     background: #0b2448;
     position: relative;
-    bottom: 0;
+    margin-top: 57px;   
 }
