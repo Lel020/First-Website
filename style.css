@@ -90,14 +90,6 @@ body{
     margin: 10px;
 }
 
-/*For the footer*/
-.footer{
-    padding: 30px;
-    background: #0b2448;
-    position: relative;
-    margin-top: 58px;   
-}
-
 /*@media - responsive layout for the content*/
 @media (max-width: 700px){
     .row{
